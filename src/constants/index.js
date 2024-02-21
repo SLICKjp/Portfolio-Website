@@ -185,7 +185,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link:"https://github.com/SLICKjp/Portfolio-Website",
+      source_code_link:"https://portfolio-website-five-sable-75.vercel.app/",
     },
     {
       name:"Saas Website Concept",
@@ -202,7 +202,7 @@ import {
         },
       ],
       image:saas,
-      source_code_link: "https://github.com/SLICKjp/Saas-Webpage-Concept",
+      source_code_link: "https://saas-webpage-concept.vercel.app/",
     },
   ];
   
