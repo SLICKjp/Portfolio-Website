@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import saas from "./saas.png"
+import Prishtvik from "./Prishtvik.png";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -73,5 +75,6 @@ export {
   getstech,
   crd,
   gslab,
-  saas
+  saas,
+  Prishtvik
 };

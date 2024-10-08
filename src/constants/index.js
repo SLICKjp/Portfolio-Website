@@ -17,6 +17,7 @@ import {
     docker,
     portfolio,
     saas,
+    Prishtvik,
     daycare,
     threejs,
     //crd,
@@ -172,15 +173,15 @@ import {
         "A 3D portfolio website developed using React.Js, Three.Js, TailwindCSS.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "threejs",
+          name: "Threejs",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -193,16 +194,33 @@ import {
         "Website built using React Js",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "green-text-gradient",
         },
       ],
       image:saas,
       source_code_link: "https://saas-webpage-concept.vercel.app/",
+    },
+    {
+      name:"Prishtvik",
+      description:
+        "Website built for Client using React Js",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Prishtvik,
+      source_code_link:"https://pisplindia.com/",
     },
   ];
   
