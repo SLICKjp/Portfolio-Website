@@ -20,8 +20,9 @@ import {
     Prishtvik,
     daycare,
     threejs,
+    Stayfit,
+    gslab
     //crd,
-    gslab,
     //getstech,
     //sustanix,
    // zypher,
@@ -208,7 +209,7 @@ import {
     {
       name:"Prishtvik",
       description:
-        "Website built for Client using React Js",
+        "Website built for Client using React JS",
       tags: [
         {
           name: "React",
@@ -222,6 +223,23 @@ import {
       image:Prishtvik,
       source_code_link:"https://pisplindia.com/",
     },
+    {
+      name:"Stayfit",
+      description:
+        "Gym interface built for Client using React JS",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Stayfit,
+      source_code_link:"https://mbahub.co.in/Stayfit/StayFit/",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import saas from "./saas.png"
 import Prishtvik from "./Prishtvik.png";
-
+import Stayfit from "./Stayfit.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -76,5 +76,6 @@ export {
   crd,
   gslab,
   saas,
-  Prishtvik
+  Prishtvik,
+  Stayfit
 };
