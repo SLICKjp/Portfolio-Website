@@ -9,7 +9,8 @@ import close from "./close.svg";
 import saas from "./saas.png"
 import Prishtvik from "./Prishtvik.png";
 import Stayfit from "./Stayfit.png";
-
+import StudioNivvani from "./Studionivvani.png";
+import EyeDetect from "./EyeDetect.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -38,6 +39,7 @@ import sustanix from "./company/sustanix.png";
 import crd from "./company/crd.png";
 import gslab from "./company/gslab.png"
 import getstech from "./company/office.png";
+import freelance from "./company/freelance.png"
 
 
 
@@ -77,5 +79,8 @@ export {
   gslab,
   saas,
   Prishtvik,
-  Stayfit
+  Stayfit,
+  StudioNivvani,
+  EyeDetect,
+  freelance
 };

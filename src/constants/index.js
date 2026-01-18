@@ -21,7 +21,10 @@ import {
     daycare,
     threejs,
     Stayfit,
-    gslab
+    gslab,
+    StudioNivvani,
+    EyeDetect,
+    freelance
     //crd,
     //getstech,
     //sustanix,
@@ -114,6 +117,21 @@ import {
   ];
   
   const experiences = [
+     {
+      title: "Software Engineer ",
+      company_name: "Freelance",
+      icon:freelance,
+      iconBg: "#E6DEDD",
+      date: "Feb 2024 - Present",
+      points: [
+        "Designed and developed responsive, production-ready websites for clients across architecture, fitness, SaaS, and AI domains.",
+        "Collaborated directly with clients to gather requirements, translate business needs into clean UI/UX, and deliver scalable frontend solutions.",
+        "Built modern web interfaces using React.js, Tailwind CSS, and custom CSS, focusing on performance, accessibility, and maintainability.",
+        "Deployed and maintained client websites, handling hosting, domain configuration, and post-launch support.",
+        "Delivered projects end-to-end within deadlines, ensuring high client satisfaction and repeat engagements."
+
+        ],
+    },
     {
       title: "Software Engineer ",
       company_name: "Great Software Labratory",
@@ -169,6 +187,58 @@ import {
   
   const projects = [
     {
+      name:"Studio Nivvani",
+      description:
+        "Designed and developed a modern, responsive website for an architect/interior design client to showcase projects, services, and brand identity. Focused on clean UI, smooth navigation",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+      ],
+      image:StudioNivvani,
+      source_code_link:"https://studionivvani.com",
+    },
+    
+    {
+      name:"EyeDetect AI",
+      description:
+        "Built a web platform for EyeDetect AI to present AI-powered eye analysis solutions, focusing on clear product communication, modern UI, and smooth user experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",  
+          color: "green-text-gradient",
+        },
+      ],
+      image:EyeDetect,
+      source_code_link:"https://eyedetectai.com",
+    },
+    {
+      name:"Prishtvik",
+      description:
+        "Website built for Client using React JS",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Prishtvik,
+      source_code_link:"https://pisplindia.com/",
+    },
+    {
       name: "3D Portfolio",
       description:
         "A 3D portfolio website developed using React.Js, Three.Js, TailwindCSS.",
@@ -190,40 +260,6 @@ import {
       source_code_link:"https://portfolio-website-five-sable-75.vercel.app/",
     },
     {
-      name:"Saas Website Concept",
-      description:
-        "Website built using React Js",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-      ],
-      image:saas,
-      source_code_link: "https://saas-webpage-concept.vercel.app/",
-    },
-    {
-      name:"Prishtvik",
-      description:
-        "Website built for Client using React JS",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:Prishtvik,
-      source_code_link:"https://pisplindia.com/",
-    },
-    {
       name:"Stayfit",
       description:
         "Gym interface built for Client using React JS",
@@ -239,7 +275,7 @@ import {
       ],
       image:Stayfit,
       source_code_link:"https://mbahub.co.in/Stayfit/StayFit/",
-    }
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
