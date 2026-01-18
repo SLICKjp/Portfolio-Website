@@ -23,7 +23,7 @@ import {
     Stayfit,
     gslab,
     StudioNivvani,
-    EyeDetect,
+    Eyedetect,
     freelance
     //crd,
     //getstech,
@@ -218,7 +218,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image:EyeDetect,
+      image:Eyedetect,
       source_code_link:"https://eyedetectai.com",
     },
     {
