@@ -10,6 +10,7 @@ import saas from "./saas.png"
 import Prishtvik from "./Prishtvik.png";
 import Stayfit from "./Stayfit.png";
 import StudioNivvani from "./Studionivvani.png";
+import Tratell from "./Tratell.png";
 import Eyedetect from "./Eyedetect.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -81,6 +82,7 @@ export {
   Prishtvik,
   Stayfit,
   StudioNivvani,
+  Tratell,
   Eyedetect,
   freelance
 };

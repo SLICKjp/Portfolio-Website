@@ -24,7 +24,8 @@ import {
     gslab,
     StudioNivvani,
     Eyedetect,
-    freelance
+    freelance,
+    Tratell
     //crd,
     //getstech,
     //sustanix,
@@ -186,6 +187,27 @@ import {
   ];
   
   const projects = [
+    {
+      name:"Tratell",
+      description:
+        "Currently building a full-stack hotel booking platform that allows users to browse, filter, and reserve accommodations with real-time availability. Focusing on a clean, intuitive interface and a smooth end-to-end booking experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Spring Boot",
+          color: "pink-text-gradient",
+        }
+      ],
+      image:Tratell,
+      source_code_link:"https://tratell.netlify.app",
+    },
     {
       name:"Studio Nivvani",
       description:
