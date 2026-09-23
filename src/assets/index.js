@@ -41,6 +41,8 @@ import crd from "./company/crd.png";
 import gslab from "./company/gslab.png"
 import getstech from "./company/office.png";
 import freelance from "./company/freelance.png"
+import Deepti from "../assets/Deepti_Acharya.png";
+import DhruvBank from "../assets/acharya_souharda.png"
 
 
 
@@ -84,5 +86,7 @@ export {
   StudioNivvani,
   Tratell,
   Eyedetect,
-  freelance
+  freelance,
+  Deepti,
+  DhruvBank
 };

@@ -25,7 +25,9 @@ import {
     StudioNivvani,
     Eyedetect,
     freelance,
-    Tratell
+    Tratell,
+    Deepti,
+    DhruvBank
     //crd,
     //getstech,
     //sustanix,
@@ -187,6 +189,75 @@ import {
   ];
   
   const projects = [
+      {
+      name:"Deepti Acharya",
+      description:
+        "Built a web platform for Deepti Acharya offering trauma-informed counselling, with clear service breakdown and a calming, easy-to-use booking experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Deepti,
+      source_code_link:"https://therapywithdeepti.com",
+    },
+    {
+      name:"Acharya Souhardha",
+      description:
+        "Built a web platform for Acharya Souharda Credit Co-operative Society to present its member-focused banking services, highlighting its trust-driven, cooperative model and community-rooted leadership.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:DhruvBank,
+      source_code_link:"https://mbahub.co.in/Stayfit/StayFit/",
+    },
+     {
+      name:"Prishtvik",
+      description:
+        "Website built for Client using React JS",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Prishtvik,
+      source_code_link:"https://pisplindia.com/",
+    },
+    {
+      name:"EyeDetect AI",
+      description:
+        "Built a web platform for Deepti Acharya to present trauma-informed counselling services, focusing on approachable branding, clear service breakdown (individual, couples, group therapy), and a calming, accessible online booking experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",  
+          color: "green-text-gradient",
+        },
+      ],
+      image:Eyedetect,
+      source_code_link:"https://eyedetectai.com",
+    },
+   
     {
       name:"Tratell",
       description:
@@ -208,6 +279,7 @@ import {
       image:Tratell,
       source_code_link:"https://tratell.netlify.app",
     },
+     
     {
       name:"Studio Nivvani",
       description:
@@ -224,79 +296,6 @@ import {
       ],
       image:StudioNivvani,
       source_code_link:"https://studionivvani.com",
-    },
-    
-    {
-      name:"EyeDetect AI",
-      description:
-        "Built a web platform for EyeDetect AI to present AI-powered eye analysis solutions, focusing on clear product communication, modern UI, and smooth user experience.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",  
-          color: "green-text-gradient",
-        },
-      ],
-      image:Eyedetect,
-      source_code_link:"https://eyedetectai.com",
-    },
-    {
-      name:"Prishtvik",
-      description:
-        "Website built for Client using React JS",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:Prishtvik,
-      source_code_link:"https://pisplindia.com/",
-    },
-    {
-      name: "3D Portfolio",
-      description:
-        "A 3D portfolio website developed using React.Js, Three.Js, TailwindCSS.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Threejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: portfolio,
-      source_code_link:"https://portfolio-website-five-sable-75.vercel.app/",
-    },
-    {
-      name:"Stayfit",
-      description:
-        "Gym interface built for Client using React JS",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:Stayfit,
-      source_code_link:"https://mbahub.co.in/Stayfit/StayFit/",
     },
   ];
   
