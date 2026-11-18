@@ -191,10 +191,28 @@ import {
   ];
   
   const projects = [
-    {
-      name:"Appron",
+      {
+      name:"Deepti Acharya",
       description:
-        "Built a landing page for Appron, an app for booking verified home cooks who prepare fresh regional meals in your own kitchen. It covers how the service works, cuisines, FAQs and app download links.",
+        "Built a web platform for Deepti Acharya offering trauma-informed counselling, with clear service breakdown and a calming, easy-to-use booking experience.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Deepti,
+      source_code_link:"https://therapywithdeepti.com",
+    }, 
+      
+    {
+      name:"Studio Nivvani",
+      description:
+        "Designed and developed a modern, responsive website for an architect/interior design client to showcase projects, services, and brand identity. Focused on clean UI, smooth navigation",
       tags: [
         {
           name: "React",
@@ -205,8 +223,8 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image:Appron,
-      source_code_link:"#",
+      image:StudioNivvani,
+      source_code_link:"https://studio-nivvani.netlify.app",
     },
     {
       name:"Gulabo Design",
@@ -225,23 +243,7 @@ import {
       image:Gulabo,
       source_code_link:"https://gulabo-design.vercel.app",
     },
-      {
-      name:"Deepti Acharya",
-      description:
-        "Built a web platform for Deepti Acharya offering trauma-informed counselling, with clear service breakdown and a calming, easy-to-use booking experience.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:Deepti,
-      source_code_link:"https://therapywithdeepti.com",
-    },
+    
     /*
     {
       name:"Acharya Souhardha",
@@ -295,11 +297,10 @@ import {
       image:Eyedetect,
       source_code_link:"https://eye-detect-five.vercel.app",
     },
-    /*
     {
       name:"Tratell",
       description:
-        "Currently building a full-stack hotel booking platform that allows users to browse, filter, and reserve accommodations with real-time availability. Focusing on a clean, intuitive interface and a smooth end-to-end booking experience.",
+        "Built Tratell, a full-stack hotel booking platform where users can browse, filter and reserve stays with real-time availability, using a React frontend and a Spring Boot backend for a clean, smooth end-to-end booking experience.",
       tags: [
         {
           name: "React",
@@ -317,12 +318,11 @@ import {
       image:Tratell,
       source_code_link:"https://tratell.netlify.app",
     },
-    */
-     
-    {
-      name:"Studio Nivvani",
+   
+     {
+      name:"Appron",
       description:
-        "Designed and developed a modern, responsive website for an architect/interior design client to showcase projects, services, and brand identity. Focused on clean UI, smooth navigation",
+        "Built a landing page for Appron, an app for booking verified home cooks who prepare fresh regional meals in your own kitchen. It covers how the service works, cuisines, FAQs and app download links.",
       tags: [
         {
           name: "React",
@@ -333,8 +333,8 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image:StudioNivvani,
-      source_code_link:"https://studio-nivvani.netlify.app",
+      image:Appron,
+      source_code_link:"#",
     },
   ];
   
