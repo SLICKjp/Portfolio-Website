@@ -8,8 +8,13 @@ import { fadeIn, textVariant } from "../utils/motion"
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div 
-    variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+    // Each card animates when it scrolls into view (not when the section does),
+    // with a small stagger per row position so cards further down never lag.
+    variants={fadeIn("up", "spring", (index % 3) * 0.15, 0.75)}
+    initial="hidden"
+    whileInView="show"
+    viewport={{ once: true, amount: 0.2 }}>
       <Tilt 
       options={{
         max:45,

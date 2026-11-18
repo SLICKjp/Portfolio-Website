@@ -8,7 +8,10 @@ const SectionWrapper = (Component, idName) => function HOC() {
         variants = {staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{once:true, amount: 0.25}}
+        // Trigger once any part of the section is 100px into the viewport.
+        // A fractional `amount` can never be reached on mobile when the
+        // section is taller than ~4x the screen (e.g. the Projects list).
+        viewport={{ once: true, amount: "some", margin: "0px 0px -100px 0px" }}
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
         >
             <span className='hash-span'
