@@ -43,6 +43,8 @@ import getstech from "./company/office.png";
 import freelance from "./company/freelance.png"
 import Deepti from "../assets/Deepti_Acharya.png";
 import DhruvBank from "../assets/acharya_souharda.png"
+import Appron from "./appron.png";
+import Gulabo from "./gulabo.png";
 
 
 
@@ -88,5 +90,7 @@ export {
   Eyedetect,
   freelance,
   Deepti,
-  DhruvBank
+  DhruvBank,
+  Appron,
+  Gulabo
 };

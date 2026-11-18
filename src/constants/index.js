@@ -27,7 +27,9 @@ import {
     freelance,
     Tratell,
     Deepti,
-    DhruvBank
+    DhruvBank,
+    Appron,
+    Gulabo
     //crd,
     //getstech,
     //sustanix,
@@ -189,6 +191,40 @@ import {
   ];
   
   const projects = [
+    {
+      name:"Appron",
+      description:
+        "Built a landing page for Appron, an app for booking verified home cooks who prepare fresh regional meals in your own kitchen. It covers how the service works, cuisines, FAQs and app download links.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+      ],
+      image:Appron,
+      source_code_link:"#",
+    },
+    {
+      name:"Gulabo Design",
+      description:
+        "Built a website for Gulabo Design, a Faridabad design studio for experience design, uniforms and brand identities, with a bold editorial layout that presents its services, work and clients.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Gulabo,
+      source_code_link:"https://gulabo-design.vercel.app",
+    },
       {
       name:"Deepti Acharya",
       description:
@@ -206,6 +242,7 @@ import {
       image:Deepti,
       source_code_link:"https://therapywithdeepti.com",
     },
+    /*
     {
       name:"Acharya Souhardha",
       description:
@@ -223,6 +260,7 @@ import {
       image:DhruvBank,
       source_code_link:"https://mbahub.co.in/Stayfit/StayFit/",
     },
+    */
      {
       name:"Prishtvik",
       description:
@@ -243,7 +281,7 @@ import {
     {
       name:"EyeDetect AI",
       description:
-        "Built a web platform for Deepti Acharya to present trauma-informed counselling services, focusing on approachable branding, clear service breakdown (individual, couples, group therapy), and a calming, accessible online booking experience.",
+        "Built a responsive website for EyeDetect.ai, an AI startup that detects workplace stress through eye movement, explaining the product clearly with industry use cases, key metrics and a simple inquiry form.",
       tags: [
         {
           name: "React",
@@ -255,9 +293,9 @@ import {
         },
       ],
       image:Eyedetect,
-      source_code_link:"https://eyedetectai.com",
+      source_code_link:"https://eye-detect-five.vercel.app",
     },
-   
+    /*
     {
       name:"Tratell",
       description:
@@ -279,6 +317,7 @@ import {
       image:Tratell,
       source_code_link:"https://tratell.netlify.app",
     },
+    */
      
     {
       name:"Studio Nivvani",
@@ -295,7 +334,7 @@ import {
         },
       ],
       image:StudioNivvani,
-      source_code_link:"https://studionivvani.com",
+      source_code_link:"https://studio-nivvani.netlify.app",
     },
   ];
   
